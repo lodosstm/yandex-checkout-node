@@ -1,10 +1,10 @@
 # SDK для Yandex.Checkout API (неофициальная)
 
-[![Version](https://img.shields.io/npm/v/yandex-kassa-v3.svg)](https://www.npmjs.org/package/yandex-kassa-v3)
-[![Build Status](https://travis-ci.org/lodosstm/yandex-kassa-v3-node.svg?branch=master)](https://travis-ci.org/lodosstm/yandex-kassa-v3-node)
-[![Downloads](https://img.shields.io/npm/dm/yandex-kassa-v3.svg)](https://www.npmjs.com/package/yandex-kassa-v3)
-[![Try on RunKit](https://badge.runkitcdn.com/yandex-kassa-v3.svg)](https://runkit.com/npm/yandex-kassa-v3)
-[![Dependencies](https://david-dm.org/lodosstm/yandex-kassa-v3-node.png)](https://david-dm.org/lodosstm/yandex-kassa-v3-node)
+[![Version](https://img.shields.io/npm/v/yandex-checkout.svg)](https://www.npmjs.org/package/yandex-checkout)
+[![Build Status](https://travis-ci.org/lodosstm/yandex-checkout-node.svg?branch=master)](https://travis-ci.org/lodosstm/yandex-checkout-node)
+[![Downloads](https://img.shields.io/npm/dm/yandex-checkout.svg)](https://www.npmjs.com/package/yandex-checkout)
+[![Try on RunKit](https://badge.runkitcdn.com/yandex-checkout.svg)](https://runkit.com/npm/yandex-checkout)
+[![Dependencies](https://david-dm.org/lodosstm/yandex-checkout-node.png)](https://david-dm.org/lodosstm/yandex-checkout-node)
 
 [README](README.md) in English
 
