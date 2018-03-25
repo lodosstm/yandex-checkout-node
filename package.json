@@ -1,6 +1,6 @@
 {
   "name": "yandex-checkout",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Yandex.Checkout API v3",
   "main": "./lib/index.js",
   "scripts": {

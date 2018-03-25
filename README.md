@@ -159,7 +159,7 @@ YandexCheckout.createPayment({
 ##### Getting information about payment
 ```javascript
 var paymentId  = '21966b95-000f-50bf-b000-0d78983bb5bc';
-YandexCheckout.getPaymentInfo(paymentId)
+YandexCheckout.getPayment(paymentId)
   .then(function(result) {
     console.log({payment: result});
   })
