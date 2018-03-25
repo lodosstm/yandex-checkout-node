@@ -74,7 +74,7 @@ describe('Test all functionality', function () {
     });
 
     before(function () {
-      test = YandexCheckout.getPayment(responses.responseForCreate.id);
+      test = YandexCheckout.getPaymentInfo(responses.responseForCreate.id);
 
       return;
     });
@@ -282,7 +282,7 @@ describe('Test all functionality', function () {
     });
 
     before(function () {
-      test = YandexCheckout.getPayment(responses.responseForRefundCreateAndGet.id);
+      test = YandexCheckout.getPaymentInfo(responses.responseForRefundCreateAndGet.id);
 
       return;
     });
@@ -657,7 +657,7 @@ describe('Test all functionality', function () {
     });
 
     before(function () {
-      test = failYandexCheckout.getPayment(responses.responseForGetInfo.id);
+      test = failYandexCheckout.getPaymentInfo(responses.responseForGetInfo.id);
 
       return;
     });

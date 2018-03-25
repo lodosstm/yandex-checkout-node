@@ -2,7 +2,7 @@ var YandexCheckout = require('../../lib/index')({ shopId: 'your_shop_id', secret
 var paymentId = 'your_payment_id';
 var idempotenceKey = 'your_idempotence_key'; // it is not required
 
-YandexCheckout.getPayment(paymentId, idempotenceKey)
+YandexCheckout.getPaymentInfo(paymentId, idempotenceKey)
   .then(function(result) {
     console.log({ payment: result });
   })
