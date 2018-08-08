@@ -1,0 +1,59 @@
+image: node:latest
+
+# Setup stages
+stages:
+- lint
+- test
+- audit
+- release
+
+
+lint:
+  stage: lint
+  script:
+  - npm install
+  - npm run lint
+
+test:node:10:
+  stage: test
+  image: node:10
+  script:
+  - npm install
+  - npm run test
+
+test:node:8:
+  stage: test
+  image: node:8
+  script:
+  - npm install
+  - npm run test
+
+test:node:6:
+  stage: test
+  image: node:6
+  script:
+  - npm install
+  - npm run test
+
+test:node:4:
+  stage: test
+  image: node:4
+  script:
+  - npm install
+  - npm run test
+
+audit:
+  stage: audit
+  script:
+  - npm install
+  - npm audit
+
+# Push image with release tag
+release:
+  stage: release
+  script:
+  - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+  - npm publish
+  only:
+  - tags
+  - triggers
