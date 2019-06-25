@@ -1,6 +1,6 @@
 {
   "name": "yandex-checkout",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Yandex.Checkout API v3",
   "main": "./lib/index.js",
   "scripts": {
@@ -30,13 +30,13 @@
     "eslint-plugin-chai-friendly": "^0.4.1",
     "mocha": "^4.1.0",
     "sinon": "^4.5.0",
-    "supertest": "^3.3.0"
+    "supertest": "^3.4.2"
   },
   "dependencies": {
-    "bluebird": "^3.5.3",
+    "bluebird": "^3.5.5",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2",
-    "request-promise-core": "^1.1.1",
+    "request-promise": "^4.2.4",
+    "request-promise-core": "^1.1.2",
     "uuid": "^3.3.2"
   }
 }
