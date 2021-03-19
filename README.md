@@ -1,4 +1,5 @@
 # Yandex.Checkout API SDK (unofficial)
+## Deprecated! The package is not supported, it is recommended to use https://github.com/a2seven/yoocheckout
 
 [![Version](https://img.shields.io/npm/v/yandex-checkout.svg)](https://www.npmjs.org/package/yandex-checkout)
 [![Build Status](https://travis-ci.org/lodosstm/yandex-checkout-node.svg?branch=master)](https://travis-ci.org/lodosstm/yandex-checkout-node)
